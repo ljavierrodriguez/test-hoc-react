@@ -3,7 +3,11 @@ import Layout from "../components/Layout";
 const Login = () => {
     return (
         <Layout hasFooter>
-            <h1>Login</h1>
+            <div className="row">
+                <div className="col-md-12">
+                    <h1>Login</h1>
+                </div>
+            </div>
         </Layout>
     )
 }
